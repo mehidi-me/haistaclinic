@@ -6,9 +6,7 @@ export default function Home() {
   <header>
     <div className="container">
       <div className="logo">
-        <Image
-  width={0}
-  height={0} loading="lazy" src="/images/Haista-Logo-R-2.png" alt="" />
+        <img loading="lazy" src="/images/Haista-Logo-R-2.png" alt="" />
       </div>
       <a href="#">
         <button>Quick Quote via WhatsApp</button>
@@ -18,34 +16,20 @@ export default function Home() {
   <header className="mb">
     <div className="container">
       <div className="logo">
-        <Image
-  width={0}
-  height={0} loading="lazy" src="/images/Haista-Logo-R-1.png" alt="" />
+        <img loading="lazy" src="/images/Haista-Logo-R-1.png" alt="" />
       </div>
     </div>
   </header>
   <main>
-    <Image
-  width={0}
-  height={0} loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
+    <img loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
     <div className="mobile-hero">
       <h1>Hair Transplant in Turkey</h1>
-      <Image
-  width={0}
-  height={0} loading="lazy" className="bg" src="/images/haista-clinic7-768x768.webp" alt="" />
+      <img loading="lazy" className="bg" src="/images/haista-clinic7-768x768.webp" alt="" />
       <div className="logos">
-        <Image
-  width={0}
-  height={0} loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
-        <Image
-  width={0}
-  height={0} loading="lazy" src="/images/fda-logo-1.png" alt="" />
-        <Image
-  width={0}
-  height={0} loading="lazy" src="/images/tursab-logo2-1.png" alt="" />
-        <Image
-  width={0}
-  height={0} loading="lazy" src="/images/health-logo-1.png" alt="" />
+        <img loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
+        <img loading="lazy" src="/images/fda-logo-1.png" alt="" />
+        <img loading="lazy" src="/images/tursab-logo2-1.png" alt="" />
+        <img loading="lazy" src="/images/health-logo-1.png" alt="" />
       </div>
     </div>
     <div className="container">
@@ -77,20 +61,14 @@ export default function Home() {
           <a href="#"><button>Book Your Consultation</button></a>
         </div>
         <div className="trust">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/Lead-Capture-Hero-Star.webp" alt="" />
+          <img loading="lazy" src="/images/Lead-Capture-Hero-Star.webp" alt="" />
           <p>4.7/5 on <span>TrustPilot</span>
           </p>
         </div>
       </div>
       <div className="form">
-        <Image
-  width={0}
-  height={0} loading="lazy" className="overlay1" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
-        <Image
-  width={0}
-  height={0} loading="lazy" className="overlay2" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
+        <img loading="lazy" className="overlay1" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
+        <img loading="lazy" className="overlay2" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
         <h2>30-Second Form for a Fuller Head of Hair</h2>
         <form action="#">
           {/* step 1 */}
@@ -126,9 +104,7 @@ export default function Home() {
     </div>
   </main>
   <section className="bg relative bg-mb">
-    <Image
-  width={0}
-  height={0} loading="lazy" className="shape5" src="/images/shape5.svg" alt="" />
+    <img loading="lazy" className="shape5" src="/images/shape5.svg" alt="" />
     <div className="container">
       <div className="title">
         <p>Honest Opinions After Operation</p>
@@ -140,9 +116,7 @@ export default function Home() {
         <iframe src="https://www.youtube.com/embed/bGlQDY0MlH8" title="✨Gregory's Hair Transplant Journey: From Montpellier to Istanbul!💇‍♂️" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
         <iframe src="https://www.youtube.com/embed/l4nvvHFAb6o" title="Hair Transplant in Turkey Patient Review - Zack from Scotland" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen /> */}
       </div>
-      <a href="#"><button className="animated"><Image
-  width={0}
-  height={0} loading="lazy" src="/images/Animation-1720298714540.gif" alt="" unoptimized={true} />Ask
+      <a href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" alt="" unoptimized={true} />Ask
           our
           representative for more
           results.</button></a>
@@ -187,9 +161,7 @@ export default function Home() {
     </div>
   </section>
   <section className="bg2 relative">
-    <Image
-  width={0}
-  height={0} loading="lazy" className="shape2" src="/images/shape2.svg" alt="" />
+    <img loading="lazy" className="shape2" src="/images/shape2.svg" alt="" />
     <div className="container">
       <div className="title t2">
         <h2>HAIR RESTORATION PACKAGES</h2>
@@ -355,9 +327,7 @@ export default function Home() {
     </div>
   </section>
   <section className="bg2 relative">
-    <Image
-  width={0}
-  height={0} loading="lazy" className="shape2" src="/images/shape2.svg" alt="" />
+    <img loading="lazy" className="shape2" src="/images/shape2.svg" alt="" />
     <div className="container">
       <div className="title t2">
         <h2>Hair Restoration Success Stories</h2>
@@ -366,52 +336,34 @@ export default function Home() {
       </div>
       <div className="slider-1">
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-before-after1-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after1-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-before-after2-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after2-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-before-after3-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after3-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-before-after4-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after4-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-before-after5-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after5-768x768.webp" alt="" />
         </div>
       </div>
-      <a href="#"><button className="animated"><Image
-  width={0}
-  height={0} loading="lazy" src="/images/Animation-1720298714540.gif" unoptimized={true} alt="" />Ask
+      <a href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" unoptimized={true} alt="" />Ask
           our
           representative for more
           results.</button></a>
     </div>
   </section>
   <section className="bg3 relative">
-    <Image
-  width={0}
-  height={0} loading="lazy" className="shape3" src="/images/shape3.svg" alt="" />
-    <Image
-  width={0}
-  height={0} loading="lazy" className="shape4" src="/images/shape3.svg" alt="" />
+    <img loading="lazy" className="shape3" src="/images/shape3.svg" alt="" />
+    <img loading="lazy" className="shape4" src="/images/shape3.svg" alt="" />
     <div className="container">
       <div className="wp-card">
         <div className="ico">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/Animation-1720298714540.gif" unoptimized={true} alt="" />
+          <img loading="lazy" src="/images/Animation-1720298714540.gif" unoptimized={true} alt="" />
         </div>
         <h2>Talk to Our Expert</h2>
         <p>Connect with us before your hair transplant operation and get a personalized pre-op meeting.
@@ -457,46 +409,30 @@ export default function Home() {
     </div>
   </section>
   <section className="bg5 relative">
-    <Image
-  width={0}
-  height={0} loading="lazy" className="shape3" src="/images/shape3.svg" alt="" />
+    <img loading="lazy" className="shape3" src="/images/shape3.svg" alt="" />
     <div className="container">
       <div className="grid-2 align-center mb-d">
         <div className="slider-1 mn-w">
           <div className="frame">
-            <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-turkey-1-768x768.webp" alt="" />
+            <img loading="lazy" src="/images/hair-transplant-turkey-1-768x768.webp" alt="" />
           </div>
           <div className="frame">
-            <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-turkey-2-768x768.webp" alt="" />
+            <img loading="lazy" src="/images/hair-transplant-turkey-2-768x768.webp" alt="" />
           </div>
           <div className="frame">
-            <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-turkey-3-768x768.webp" alt="" />
+            <img loading="lazy" src="/images/hair-transplant-turkey-3-768x768.webp" alt="" />
           </div>
           <div className="frame">
-            <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-turkey-4-768x767.webp" alt="" />
+            <img loading="lazy" src="/images/hair-transplant-turkey-4-768x767.webp" alt="" />
           </div>
           <div className="frame">
-            <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-turkey-5-768x768.webp" alt="" />
+            <img loading="lazy" src="/images/hair-transplant-turkey-5-768x768.webp" alt="" />
           </div>
           <div className="frame">
-            <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-turkey-6-768x768.webp" alt="" />
+            <img loading="lazy" src="/images/hair-transplant-turkey-6-768x768.webp" alt="" />
           </div>
           <div className="frame">
-            <Image
-  width={0}
-  height={0} loading="lazy" src="/images/hair-transplant-turkey-7-768x768.webp" alt="" />
+            <img loading="lazy" src="/images/hair-transplant-turkey-7-768x768.webp" alt="" />
           </div>
         </div>
         <div className="text-box">
@@ -656,24 +592,16 @@ export default function Home() {
       </div>
       <div className="slider-4">
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/haista-clinic1-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/haista-clinic1-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/haista-clinic3-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/haista-clinic3-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/haista-clinic6-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/haista-clinic6-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image
-  width={0}
-  height={0} loading="lazy" src="/images/haista-clinic7-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/haista-clinic7-768x768.webp" alt="" />
         </div>
       </div>
     </div>
@@ -967,9 +895,7 @@ export default function Home() {
     </div>
   </footer>
   <a href="#" className="wp">
-    <Image
-  width={0}
-  height={0} loading="lazy" src="/images/whatsapp.png" alt="" />
+    <img loading="lazy" src="/images/whatsapp.png" alt="" />
   </a>
   <a href="#">
     <div className="arrow">
