@@ -1,4 +1,6 @@
 import {  Poppins } from "next/font/google";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./style.css";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["300","400","500","600","700"]});

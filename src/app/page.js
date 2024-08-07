@@ -1,6 +1,8 @@
+import Slider1 from "@/Component/Slider1";
 import Image from "next/image";
 
 export default function Home() {
+  
   return (
     <div>
   <header>
@@ -334,23 +336,8 @@ export default function Home() {
         <h3>Before &amp; After</h3>
         <span>Hair Transplant Turkey</span>
       </div>
-      <div className="slider-1">
-        <div className="frame">
-          <img loading="lazy" src="/images/hair-transplant-before-after1-768x768.webp" alt="" />
-        </div>
-        <div className="frame">
-          <img loading="lazy" src="/images/hair-transplant-before-after2-768x768.webp" alt="" />
-        </div>
-        <div className="frame">
-          <img loading="lazy" src="/images/hair-transplant-before-after3-768x768.webp" alt="" />
-        </div>
-        <div className="frame">
-          <img loading="lazy" src="/images/hair-transplant-before-after4-768x768.webp" alt="" />
-        </div>
-        <div className="frame">
-          <img loading="lazy" src="/images/hair-transplant-before-after5-768x768.webp" alt="" />
-        </div>
-      </div>
+      
+      <Slider1 />
       <a href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" unoptimized={true} alt="" />Ask
           our
           representative for more
