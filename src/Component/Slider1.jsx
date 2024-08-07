@@ -24,19 +24,19 @@ function Slider1() {
   return (
     <Slider className="slider-1" {...settings1}>
         <div className="frame">
-          <Image objectFit="cover" layout="fill" loading="lazy" src="/images/hair-transplant-before-after1-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after1-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image objectFit="cover" layout="fill" loading="lazy" src="/images/hair-transplant-before-after2-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after2-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image objectFit="cover" layout="fill" loading="lazy" src="/images/hair-transplant-before-after3-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after3-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image objectFit="cover" layout="fill" loading="lazy" src="/images/hair-transplant-before-after4-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after4-768x768.webp" alt="" />
         </div>
         <div className="frame">
-          <Image objectFit="cover" layout="fill" loading="lazy" src="/images/hair-transplant-before-after5-768x768.webp" alt="" />
+          <img loading="lazy" src="/images/hair-transplant-before-after5-768x768.webp" alt="" />
         </div>
       </Slider>
   )
