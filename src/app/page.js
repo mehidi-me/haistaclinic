@@ -26,7 +26,7 @@ export default function Home() {
     <img loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
     <div className="mobile-hero">
       <h1>Hair Transplant in Turkey</h1>
-      <Image loading="lazy" width={0} height={0} style={{maxWidth:'100%'}} className="bg" src="/images/haista-clinic7-768x768.webp" alt="" />
+      <Image loading="lazy" className="bg" objectFit="cover" layout="fill" src="/images/haista-clinic7-768x768.webp" alt="" />
       <div className="logos">
         <img loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
         <img loading="lazy" src="/images/fda-logo-1.png" alt="" />
