@@ -26,7 +26,7 @@ export default function Home() {
     <img loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
     <div className="mobile-hero">
       <h1>Hair Transplant in Turkey</h1>
-      <Image loading="lazy" className="bg" width={390} height={600} priority src="/images/haista-clinic7-768x768.webp" alt="" />
+      <Image loading="lazy" className="bg" width={390} height={600} priority src="/images/haista-clinic7-768x768-ezgif.com-optiwebp.webp" alt="" />
       <div className="logos">
         <img loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
         <img loading="lazy" src="/images/fda-logo-1.png" alt="" />
