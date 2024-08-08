@@ -22,7 +22,18 @@ export default function Home() {
     <img loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
     <div className="mobile-hero">
       <h1>Hair Transplant in Turkey</h1>
-      <Image className="bg"  priority={true} width={300} height={300}  src="/images/haista-clinic7-768x768.webp" alt="" />
+      <Image
+        className="bg"
+        priority={true}                // Ensures the image is loaded as soon as possible
+        src="/images/haista-clinic7-768x768.webp"
+        alt="Clinic"
+        width={300}
+        height={300}
+        layout="intrinsic"             // Ensures that the image is laid out with its intrinsic size
+        quality={75}                   // Adjusts the quality of the image to balance between size and quality
+        placeholder="blur"             // Adds a blur placeholder while the image is loading
+        blurDataURL="/images/haista-clinic7-768x768-ezgif.com-optiwebp.webp" // Optional: A small base64-encoded image for the placeholder
+      />
       <div className="logos">
         <img loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
         <img loading="lazy" src="/images/fda-logo-1.png" alt="" />
