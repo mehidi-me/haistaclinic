@@ -24,15 +24,11 @@ export default function Home() {
       <h1>Hair Transplant in Turkey</h1>
       <Image
         className="bg"
-        priority={true}                // Ensures the image is loaded as soon as possible
+        priority={true}
         src="/images/haista-clinic7-768x768.webp"
         alt="Clinic"
-        width={300}
-        height={300}
-        layout="intrinsic"             // Ensures that the image is laid out with its intrinsic size
-        quality={75}                   // Adjusts the quality of the image to balance between size and quality
-        placeholder="blur"             // Adds a blur placeholder while the image is loading
-        blurDataURL="/images/haista-clinic7-768x768-ezgif.com-optiwebp.webp" // Optional: A small base64-encoded image for the placeholder
+        width={30}
+        height={30}
       />
       <div className="logos">
         <img loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
