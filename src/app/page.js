@@ -4,8 +4,10 @@ import Slider1 from "@/Component/Slider1";
 import Slider2 from "@/Component/Slider2";
 import Slider3 from "@/Component/Slider3";
 import Slider4 from "@/Component/Slider4";
+import Videos from "@/Component/Videos";
 import Head from "next/head";
 import Image from "next/image";
+
 
 export default function Home() {
   
@@ -108,11 +110,7 @@ export default function Home() {
         <span>Hair Transplant Turkey</span>
       </div>
       <div className="grid-3">
-        <iframe src="https://www.youtube.com/embed/qXrGzivrLak" title="Unbelievable Hair Transplant Transformation: Leon's Life-Changing Journey at Haista Clinic!" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen loading="lazy" />
-
-        <iframe src="https://www.youtube.com/embed/bGlQDY0MlH8" title="✨Gregory's Hair Transplant Journey: From Montpellier to Istanbul!💇‍♂️" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen loading="lazy" />
-
-        <iframe src="https://www.youtube.com/embed/l4nvvHFAb6o" title="Hair Transplant in Turkey Patient Review - Zack from Scotland" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen loading="lazy" />
+     <Videos />
       </div>
       <a href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" alt="" unoptimized={true} />Ask
           our
