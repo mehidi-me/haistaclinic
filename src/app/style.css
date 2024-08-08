@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--poppins);
+  font-family: var(--poppins), sans-serif;
   border: none;
   outline: none;
   text-decoration: none;
@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--bebasneue);
+  font-family: var(--bebasneue), sans-serif;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -194,7 +194,7 @@ main .content .list {
 }
 main .content button {
   border-radius: 1rem;
-  font-family: var(--bebasneue);
+  font-family: var(--bebasneue), sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
   background: #003068;
@@ -257,7 +257,7 @@ main .content .trust p {
   text-align: center;
 }
 .form h2 {
-  font-family: var(--poppins);
+  font-family: var(--poppins), sans-serif;
   font-size: 3rem;
   font-weight: 600;
   text-transform: capitalize;
@@ -337,7 +337,7 @@ i svg {
 }
 .title p {
   text-transform: uppercase;
-  font-family: var(--bebasneue);
+  font-family: var(--bebasneue), sans-serif;
   color: red;
   font-size: 3rem;
   line-height: 1;
@@ -377,7 +377,7 @@ iframe {
 }
 button.animated {
   position: relative;
-  font-family: var(--bebasneue);
+  font-family: var(--bebasneue), sans-serif;
   font-size: 2.5rem;
   margin: auto;
   margin-top: 8rem;
@@ -552,7 +552,7 @@ button.animated img {
 }
 .price h4 {
   font-size: 3rem;
-  font-family: var(--poppins);
+  font-family: var(--poppins), sans-serif;
   font-weight: 600;
 }
 .price h4 span {
@@ -633,7 +633,7 @@ button.animated img {
   font-size: 2rem;
 }
 button.primary {
-  font-family: var(--bebasneue);
+  font-family: var(--bebasneue), sans-serif;
   font-size: 3rem;
   background: #00d200;
 }
@@ -662,7 +662,7 @@ button.primary {
 }
 .text-box h2 {
   font-size: 5rem;
-  font-family: var(--poppins);
+  font-family: var(--poppins), sans-serif;
   text-transform: unset;
   font-weight: 500;
   line-height: 1.1;
@@ -798,7 +798,7 @@ button.primary {
   color: var(--secoundprimary);
 }
 .title.t42 h2 {
-  font-family: var(--poppins);
+  font-family: var(--poppins), sans-serif;
   text-transform: unset;
   font-size: 5rem;
   font-weight: 500;
