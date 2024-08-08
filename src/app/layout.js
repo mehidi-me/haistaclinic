@@ -1,11 +1,11 @@
-// import {  Poppins } from "next/font/google";
-// import {  Bebas_Neue } from "next/font/google";
+import {  Poppins } from "next/font/google";
+import {  Bebas_Neue } from "next/font/google";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style.css";
 
-// const poppins = Poppins({ subsets: ["latin"], weight: ["300","400","500","600","700"],variable:'--poppins'});
-// const bebasNeue = Bebas_Neue({ subsets: ["latin"],weight: ["400"],variable:'--bebasneue'});
+const poppins = Poppins({ subsets: ["latin"], weight: ["300","400","500","600","700"],variable:'--poppins',display: 'swap'});
+const bebasNeue = Bebas_Neue({ subsets: ["latin"],weight: ["400"],variable:'--bebasneue',display: 'swap'});
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en"
-    //  className={`${poppins.variable} ${bebasNeue.variable}`}
+     className={`${poppins.variable} ${bebasNeue.variable}`}
      >
       {/* <body className={poppins.className}>{children}</body> */}
       <body>{children}</body>
