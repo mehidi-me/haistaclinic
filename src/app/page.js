@@ -21,7 +21,7 @@ export default function Home() {
   <main>
     <img loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
     <div className="mobile-hero">
-      <h1>Hair Transplant in Turkey</h1>
+      <h1 style={{fontFamily:'var(--font-mono)',fontWeight:'bold'}}>Hair Transplant in Turkey</h1>
       <Image
         className="bg"
         priority={true}
