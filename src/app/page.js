@@ -1,4 +1,9 @@
+import Faq from "@/Component/Faq";
+import Header from "@/Component/Header";
 import Slider1 from "@/Component/Slider1";
+import Slider2 from "@/Component/Slider2";
+import Slider3 from "@/Component/Slider3";
+import Slider4 from "@/Component/Slider4";
 import Image from "next/image";
 
 export default function Home() {
@@ -6,28 +11,12 @@ export default function Home() {
 
   return (
     <div>
-  <header>
-    <div className="container">
-      <div className="logo">
-        <img loading="lazy" src="/images/Haista-Logo-R-2.png" alt="" />
-      </div>
-      <a href="#">
-        <button>Quick Quote via WhatsApp</button>
-      </a>
-    </div>
-  </header>
-  <header className="mb">
-    <div className="container">
-      <div className="logo">
-        <img loading="lazy" src="/images/Haista-Logo-R-1.png" alt="" />
-      </div>
-    </div>
-  </header>
+ <Header />
   <main>
     <img loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
     <div className="mobile-hero">
       <h1>Hair Transplant in Turkey</h1>
-      <Image loading="lazy" className="bg" width={0} height={0} src="/images/haista-clinic7-768x7680.webp" alt="" />
+      <Image loading="lazy" className="bg" width={300} height={300}  src="/images/haista-clinic7-768x768.webp" alt="" />
       <div className="logos">
         <img loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
         <img loading="lazy" src="/images/fda-logo-1.png" alt="" />
@@ -400,29 +389,7 @@ export default function Home() {
     <img loading="lazy" className="shape3" src="/images/shape3.svg" alt="" />
     <div className="container">
       <div className="grid-2 align-center mb-d">
-        <div className="slider-1 mn-w">
-          <div className="frame">
-            <img loading="lazy" src="/images/hair-transplant-turkey-1-768x768.webp" alt="" />
-          </div>
-          <div className="frame">
-            <img loading="lazy" src="/images/hair-transplant-turkey-2-768x768.webp" alt="" />
-          </div>
-          <div className="frame">
-            <img loading="lazy" src="/images/hair-transplant-turkey-3-768x768.webp" alt="" />
-          </div>
-          <div className="frame">
-            <img loading="lazy" src="/images/hair-transplant-turkey-4-768x767.webp" alt="" />
-          </div>
-          <div className="frame">
-            <img loading="lazy" src="/images/hair-transplant-turkey-5-768x768.webp" alt="" />
-          </div>
-          <div className="frame">
-            <img loading="lazy" src="/images/hair-transplant-turkey-6-768x768.webp" alt="" />
-          </div>
-          <div className="frame">
-            <img loading="lazy" src="/images/hair-transplant-turkey-7-768x768.webp" alt="" />
-          </div>
-        </div>
+       <Slider2 />
         <div className="text-box">
           <div className="tag">BENEFITS</div>
           <h2>No need to plan anything; we handle it all. Just arrive.</h2>
@@ -483,115 +450,8 @@ export default function Home() {
         <small>WE ARE PROUD OF</small>
         <h2>Our Happy Patients</h2>
       </div>
-      <div className="slider-3">
-        <div className="review-card">
-          <div className="details">
-            <p>Aaron</p>
-            <span>Hair Transpalant</span>
-          </div>
-          <div className="stars">
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-          </div>
-          <div className="feedback">
-            <p>Great communication. Well organised, all transfers and hotel sorted. Friendly staff at clinic
-              and
-              translator makes a big
-              difference to the day. Most of all, great aftercare, giving great advice and tips to keep
-              mind
-              at ease on progress.
-              Looking forward to the results</p>
-          </div>
-        </div>
-        <div className="review-card">
-          <div className="details">
-            <p>James O</p>
-            <span>Hair Transpalant</span>
-          </div>
-          <div className="stars">
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-          </div>
-          <div className="feedback">
-            <p>
-              I picked haista clinic seen amazing results in my friend's hair .so that why pick them I got
-              it
-              done 2 weeks ago from
-              start to finish ther team are on point from transport hotel and getting it done didn't feel
-              alone wit the team very nice
-              people from Ireland thanks again haista💯👍🧔🧔🧔</p>
-          </div>
-        </div>
-        <div className="review-card">
-          <div className="details">
-            <p>Rus</p>
-            <span>Dental Implants &amp; Hair Transplant</span>
-          </div>
-          <div className="stars">
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-            <svg width={18} height={17} viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M9.86804 0.88376C9.54694 0.111745 8.45329 0.111745 8.13219 0.88376L6.3014 5.28553L1.54932 5.6665C0.715863 5.73332 0.377908 6.77343 1.01291 7.31738L4.63349 10.4188L3.52735 15.056C3.33334 15.8693 4.21812 16.5122 4.93167 16.0763L9.00011 13.5913L13.0686 16.0763C13.7821 16.5122 14.6669 15.8693 14.4729 15.056L13.3667 10.4188L16.9873 7.31738C17.6223 6.77343 17.2844 5.73332 16.4509 5.6665L11.6988 5.28553L9.86804 0.88376Z" fill="#0F172A" />
-            </svg>
-          </div>
-          <div className="feedback">
-            <p>I had a hair transplant and dental implant with Haista Clinic. Very professional from start
-              to
-              finish. I recommend with
-              confidence. Thank you 🙏👍</p>
-          </div>
-        </div>
-      </div>
-      <div className="slider-4">
-        <div className="frame">
-          <img loading="lazy" src="/images/haista-clinic1-768x768.webp" alt="" />
-        </div>
-        <div className="frame">
-          <img loading="lazy" src="/images/haista-clinic3-768x768.webp" alt="" />
-        </div>
-        <div className="frame">
-          <img loading="lazy" src="/images/haista-clinic6-768x768.webp" alt="" />
-        </div>
-        <div className="frame">
-          <img loading="lazy" src="/images/haista-clinic7-768x768.webp" alt="" />
-        </div>
-      </div>
+      <Slider3 />
+     <Slider4 />
     </div>
   </section>
   <section className="bg">
@@ -600,264 +460,7 @@ export default function Home() {
         <div className="tag">FAQS</div>
         <h2>Frequently Asked Questions</h2>
       </div>
-      <div className="faq-wrap">
-        <div className="faq">
-          <div className="question active">
-            <p>
-              Why choose Turkey for a hair transplant?</p>
-            <div className="ico open"><span /> <span /></div>
-          </div>
-          <div className="ans show">
-            <p>
-              Turkey is renowned for expert hair restoration at competitive prices. Our clinics offer
-              state-of-the-art technology,
-              experienced surgeons, and a chance to combine your treatment with a memorable trip to
-              Istanbul.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How long does a hair transplant procedure take?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Most hair transplant procedures in Turkey take 6-8 hours, depending on the extent of hair
-              loss and the technique used.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              Is hair transplantation painful?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              The procedure is performed under local anesthesia, ensuring minimal discomfort. Most
-              patients report little to no pain
-              during and after the treatment.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How soon will I see results after a hair transplant?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Initial growth usually starts 3-4 months after the procedure, with significant results
-              visible around 6-9 months. Full
-              results are typically seen after 12-18 months.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              What hair loss treatments do you offer besides transplantation?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              We offer a range of hair loss treatments including PRP therapy, mesotherapy, and medical
-              treatments tailored to your
-              specific needs.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How much does a hair transplant in Turkey cost?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Costs vary depending on the packages you choose. However, our treatments are typically
-              50-70% less expensive than in
-              Western countries, without compromising on quality.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              Are your hair transplant results natural-looking?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Yes, our expert surgeons use advanced techniques to ensure natural-looking results. We
-              carefully plan each procedure to
-              match your existing hair pattern and facial features.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How long do I need to stay in Turkey for a hair transplant?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Most patients stay for 2-3 days. This allows time for the initial consultation, the
-              procedure, and a follow-up check
-              before returning home.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              What's included in your hair transplant packages?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Our packages typically include the procedure, hotel accommodation, airport transfers, and
-              post-operative care products.
-              We ensure a comfortable and stress-free experience.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How do I book a free consultation for hair restoration in Turkey?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Simply click the “Book Your Free Consultation” button on this page, or call our clinic with
-              WhatsApp. We’ll schedule a
-              virtual consultation to discuss your needs and options.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              Do I need a visa to visit Turkey for my hair transplant?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Visa requirements vary depending on your country of origin. Many countries have e-visa
-              options or visa-free travel to
-              Turkey. We can provide guidance on visa processes during your consultation.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              Will language be a barrier during my treatment in Turkey?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Not at all. Our clinic staff and surgeons are fluent in English, and we offer translation
-              services for many other
-              languages. We ensure clear communication throughout your treatment journey.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How safe is the medical care in Turkey for hair transplants?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Turkey’s top hair clinics, including ours, adhere to strict international medical standards.
-              Our facilities are
-              state-of-the-art, and our surgeons are highly qualified with extensive experience in hair
-              restoration.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              Can I combine my hair transplant trip with some sightseeing in Turkey?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              Absolutely! Many of our international patients enjoy exploring Istanbul or other parts of
-              Turkey before or after their
-              treatment. We can recommend tourist activities that won’t interfere with your recovery.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              What kind of follow-up care do you provide for international patients?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              We offer comprehensive post-operative care instructions and are available for online
-              consultations after you return
-              home. We also provide guidance on finding local professionals for any necessary in-person
-              follow-ups.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How do I manage the post-operative care while traveling back to my country?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              We provide detailed instructions and a post-operative care kit. Most patients can
-              comfortably travel back 3-4 days after
-              the procedure. We’ll advise you on all necessary precautions for your journey home.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              How do currency exchange rates affect the cost of my treatment?</p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              We offer transparent pricing in major currencies like USD and EUR to avoid confusion. Once
-              you book your treatment, we
-              can lock in the price to protect against currency fluctuations.
-            </p>
-          </div>
-        </div>
-        <div className="faq">
-          <div className="question">
-            <p>
-              Do you offer package deals for groups or couples traveling together for hair transplants?
-            </p>
-            <div className="ico"><span /> <span /></div>
-          </div>
-          <div className="ans">
-            <p>
-              We do offer special rates for groups or couples traveling together for treatments. This can
-              include discounts on
-              procedures and shared accommodation options. Contact us for more details on our group
-              packages.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Faq />
     </div>
   </section>
   <section className="bg7">
@@ -885,13 +488,7 @@ export default function Home() {
   <a href="#" className="wp">
     <img loading="lazy" src="/images/whatsapp.png" alt="" />
   </a>
-  <a href="#">
-    <div className="arrow">
-      <svg width={18} height={10} viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1.5 8.75L9 1.25L16.5 8.75" stroke="#0F172A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    </div>
-  </a>
+ 
 </div>
 
   );

@@ -746,6 +746,7 @@ button.primary {
   background: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 2rem;
+  margin-bottom: 30px;
 }
 .feedback p {
   font-size: 2.5rem;
@@ -774,9 +775,13 @@ button.primary {
   bottom: 3rem;
 }
 /* the slides */
-.slick-slide {
+/* .slick-slide {
   margin: 0 0.5rem;
-}
+} */
+ .slick-track{
+  display: flex;
+  gap: .5rem;
+ }
 
 /* the parent */
 .slick-list {
