@@ -1,113 +1,25 @@
-import Faq from "@/Component/Faq";
-import Header from "@/Component/Header";
-import Slider1 from "@/Component/Slider1";
-import Slider2 from "@/Component/Slider2";
-import Slider3 from "@/Component/Slider3";
-import Slider4 from "@/Component/Slider4";
-import Videos from "@/Component/Videos";
-import Head from "next/head";
-import Image from "next/image";
 
+
+import dynamic from "next/dynamic";
+// import Head from "next/head";
+// import Image from "next/image";
+const DynamicSlider1 = dynamic(() => import('@/Component/Slider1'))
+const DynamicSlider2 = dynamic(() => import('@/Component/Slider2'))
+const DynamicSlider3 = dynamic(() => import('@/Component/Slider3'))
+const DynamicSlider4 = dynamic(() => import('@/Component/Slider4'))
+const DynamicVideos = dynamic(() => import('@/Component/Videos'))
+const DynamicFaq = dynamic(() => import('@/Component/Faq'))
+const DynamicMain = dynamic(() => import('@/Component/Main'))
+const DynamicHeader = dynamic(() => import('@/Component/Header'))
 
 export default function Home() {
   
 
   return (
     <div>
-       <Head>
-    <link rel="preload" href="/images/haista-clinic7-768x768.webp" as="image" />
-  </Head>
- <Header />
-  <main>
-    <img loading="lazy" className="shape1" src="/images/shape1.svg" alt="" />
-    <div className="mobile-hero">
-      <h1 style={{fontFamily:'var(--font-mono)',fontWeight:'bold'}}>Hair Transplant in Turkey</h1>
-      <Image
-        className="bg"
-        priority={true}
-        src="/images/haista-clinic7-768x768.webp"
-        alt="Clinic"
-        width={30}
-        height={30}
-      />
-      <div className="logos">
-        <img loading="lazy" src="/images/Logo_JCI-1.png" alt="" />
-        <img loading="lazy" src="/images/fda-logo-1.png" alt="" />
-        <img loading="lazy" src="/images/tursab-logo2-1.png" alt="" />
-        <img loading="lazy" src="/images/health-logo-1.png" alt="" />
-      </div>
-    </div>
-    <div className="container">
-      <div className="content">
-        <div className="fx-wrap">
-          <h1 className="pc">Expert Hair Transplant in Turkey</h1>
-          <div className="list">
-            <h3><svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fillRule="evenodd" clipRule="evenodd" d="M0.25 10C0.25 4.61522 4.61522 0.25 10 0.25C15.3848 0.25 19.75 4.61522 19.75 10C19.75 15.3848 15.3848 19.75 10 19.75C4.61522 19.75 0.25 15.3848 0.25 10ZM13.6103 8.18593C13.8511 7.84887 13.773 7.38046 13.4359 7.1397C13.0989 6.89894 12.6305 6.97701 12.3897 7.31407L9.1543 11.8436L7.53033 10.2197C7.23744 9.92678 6.76256 9.92678 6.46967 10.2197C6.17678 10.5126 6.17678 10.9874 6.46967 11.2803L8.71967 13.5303C8.87556 13.6862 9.09215 13.7656 9.31186 13.7474C9.53157 13.7293 9.73216 13.6153 9.8603 13.4359L13.6103 8.18593Z" />
-              </svg>
-              10,000+ Successful Treatments</h3>
-            <h3><svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fillRule="evenodd" clipRule="evenodd" d="M0.25 10C0.25 4.61522 4.61522 0.25 10 0.25C15.3848 0.25 19.75 4.61522 19.75 10C19.75 15.3848 15.3848 19.75 10 19.75C4.61522 19.75 0.25 15.3848 0.25 10ZM13.6103 8.18593C13.8511 7.84887 13.773 7.38046 13.4359 7.1397C13.0989 6.89894 12.6305 6.97701 12.3897 7.31407L9.1543 11.8436L7.53033 10.2197C7.23744 9.92678 6.76256 9.92678 6.46967 10.2197C6.17678 10.5126 6.17678 10.9874 6.46967 11.2803L8.71967 13.5303C8.87556 13.6862 9.09215 13.7656 9.31186 13.7474C9.53157 13.7293 9.73216 13.6153 9.8603 13.4359L13.6103 8.18593Z" />
-              </svg>
-              95% Satisfaction Rate</h3>
-            <h3><svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fillRule="evenodd" clipRule="evenodd" d="M0.25 10C0.25 4.61522 4.61522 0.25 10 0.25C15.3848 0.25 19.75 4.61522 19.75 10C19.75 15.3848 15.3848 19.75 10 19.75C4.61522 19.75 0.25 15.3848 0.25 10ZM13.6103 8.18593C13.8511 7.84887 13.773 7.38046 13.4359 7.1397C13.0989 6.89894 12.6305 6.97701 12.3897 7.31407L9.1543 11.8436L7.53033 10.2197C7.23744 9.92678 6.76256 9.92678 6.46967 10.2197C6.17678 10.5126 6.17678 10.9874 6.46967 11.2803L8.71967 13.5303C8.87556 13.6862 9.09215 13.7656 9.31186 13.7474C9.53157 13.7293 9.73216 13.6153 9.8603 13.4359L13.6103 8.18593Z" />
-              </svg>
-              Free Consultation Available</h3>
-            <h3><svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fillRule="evenodd" clipRule="evenodd" d="M0.25 10C0.25 4.61522 4.61522 0.25 10 0.25C15.3848 0.25 19.75 4.61522 19.75 10C19.75 15.3848 15.3848 19.75 10 19.75C4.61522 19.75 0.25 15.3848 0.25 10ZM13.6103 8.18593C13.8511 7.84887 13.773 7.38046 13.4359 7.1397C13.0989 6.89894 12.6305 6.97701 12.3897 7.31407L9.1543 11.8436L7.53033 10.2197C7.23744 9.92678 6.76256 9.92678 6.46967 10.2197C6.17678 10.5126 6.17678 10.9874 6.46967 11.2803L8.71967 13.5303C8.87556 13.6862 9.09215 13.7656 9.31186 13.7474C9.53157 13.7293 9.73216 13.6153 9.8603 13.4359L13.6103 8.18593Z" />
-              </svg>Competitive pricing with premium care</h3>
-          </div>
-          <p className="pc">Welcome to Turkey’s leading hair restoration clinic, serving clients since 2010. Our
-            advanced hair
-            transplant techniques
-            and experienced team ensure natural-looking results tailored to your needs.
-          </p>
-          <a href="#"><button>Book Your Consultation</button></a>
-        </div>
-        <div className="trust">
-          <img loading="lazy" src="/images/Lead-Capture-Hero-Star.webp" alt="" />
-          <p>4.7/5 on <span>TrustPilot</span>
-          </p>
-        </div>
-      </div>
-      <div className="form">
-        <img loading="lazy" className="overlay1" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
-        <img loading="lazy" className="overlay2" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
-        <h2>30-Second Form for a Fuller Head of Hair</h2>
-        <form action="#">
-          {/* step 1 */}
-          <div className="form-step active">
-            <div className="input">
-              <p>Full Name *</p>
-              <input type="text" placeholder="Full Name" />
-            </div>
-            <div className="button">Next</div>
-          </div>
-          {/* step 1 end */}
-          {/* step 2 */}
-          <div className="form-step">
-            <div className="input">
-              <p>Phone Number *</p>
-              <input type="text" placeholder="Full Name" />
-            </div>
-            <div className="button">Next</div>
-          </div>
-          {/* step 2 end */}
-        </form>
-        <div className="progress">
-          <div className="flow" />
-        </div>
-        <div className="privacy">
-          <i><svg width={20} height={22} viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M10.5157 1.1698C10.2265 0.895873 9.77353 0.895873 9.48428 1.1698C7.46752 3.07977 4.74624 4.25011 1.75 4.25011C1.70233 4.25011 1.65473 4.24981 1.60721 4.24922C1.27984 4.24515 0.987669 4.4539 0.885415 4.76491C0.472873 6.01968 0.25 7.35963 0.25 8.75015C0.25 14.6922 4.31406 19.6831 9.81306 21.0984C9.93569 21.13 10.0643 21.13 10.1869 21.0984C15.6859 19.6831 19.75 14.6922 19.75 8.75015C19.75 7.35963 19.5271 6.01968 19.1146 4.76491C19.0123 4.4539 18.7202 4.24515 18.3928 4.24922C18.3453 4.24981 18.2977 4.25011 18.25 4.25011C15.2538 4.25011 12.5325 3.07977 10.5157 1.1698ZM13.6103 9.18593C13.8511 8.84887 13.773 8.38046 13.4359 8.1397C13.0989 7.89894 12.6305 7.97701 12.3897 8.31407L9.1543 12.8436L7.53033 11.2197C7.23744 10.9268 6.76256 10.9268 6.46967 11.2197C6.17678 11.5126 6.17678 11.9874 6.46967 12.2803L8.71967 14.5303C8.87556 14.6862 9.09215 14.7656 9.31186 14.7474C9.53157 14.7293 9.73216 14.6153 9.8603 14.4359L13.6103 9.18593Z" />
-            </svg>
-          </i>
-          <p>Your privacy is our priority.</p>
-        </div>
-      </div>
-    </div>
-  </main>
+     
+ <DynamicHeader />
+ <DynamicMain />
   <section className="bg relative bg-mb">
     <img loading="lazy" className="shape5" src="/images/shape5.svg" alt="" />
     <div className="container">
@@ -117,9 +29,9 @@ export default function Home() {
         <span>Hair Transplant Turkey</span>
       </div>
       <div className="grid-3">
-     <Videos />
+     <DynamicVideos />
       </div>
-      <a href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" alt="" unoptimized={true} />Ask
+       <a aria-label="empty" href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" alt="" unoptimized={true} />Ask
           our
           representative for more
           results.</button></a>
@@ -159,7 +71,7 @@ export default function Home() {
         <h2>Discover Your New Look</h2>
         <h3>Start Your Hair Journey, Claim Your Free Hair Assessment Now
         </h3>
-        <a href="#"><button>Risk-Free Consultation</button></a>
+         <a aria-label="empty" href="#"><button>Risk-Free Consultation</button></a>
       </div>
     </div>
   </section>
@@ -213,7 +125,7 @@ export default function Home() {
               </svg>Translator in The Clinic
             </p>
           </div>
-          <a href="#"><button>Chat with a Hair Expert Now</button></a>
+           <a aria-label="empty" href="#"><button>Chat with a Hair Expert Now</button></a>
         </div>
         <div className="package-card">
           <div className="price">
@@ -266,7 +178,7 @@ export default function Home() {
               </svg>Translator in The Clinic
             </p>
           </div>
-          <a href="#"><button>Chat with a Hair Expert Now</button></a>
+           <a aria-label="empty" href="#"><button>Chat with a Hair Expert Now</button></a>
         </div>
         <div className="package-card">
           <div className="price">
@@ -324,7 +236,7 @@ export default function Home() {
               </svg>Istanbul Tour Included
             </p>
           </div>
-          <a href="#"><button>Chat with a Hair Expert Now</button></a>
+           <a aria-label="empty" href="#"><button>Chat with a Hair Expert Now</button></a>
         </div>
       </div>
     </div>
@@ -338,8 +250,8 @@ export default function Home() {
         <span>Hair Transplant Turkey</span>
       </div>
       
-      <Slider1 />
-      <a href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" unoptimized={true} alt="" />Ask
+      <DynamicSlider1 />
+       <a aria-label="empty" href="#"><button className="animated"><img loading="lazy" src="/images/Animation-1720298714540.gif" unoptimized={true} alt="" />Ask
           our
           representative for more
           results.</button></a>
@@ -356,7 +268,7 @@ export default function Home() {
         <h2>Talk to Our Expert</h2>
         <p>Connect with us before your hair transplant operation and get a personalized pre-op meeting.
         </p>
-        <a href="#"><button className="primary">Request a call</button></a>
+         <a aria-label="empty" href="#"><button className="primary">Request a call</button></a>
       </div>
     </div>
   </section>
@@ -400,12 +312,12 @@ export default function Home() {
     <img loading="lazy" className="shape3" src="/images/shape3.svg" alt="" />
     <div className="container">
       <div className="grid-2 align-center mb-d">
-       <Slider2 />
+       <DynamicSlider2 />
         <div className="text-box">
           <div className="tag">BENEFITS</div>
           <h2>No need to plan anything; we handle it all. Just arrive.</h2>
           <p>Just focus on your treatment and relaxation.</p>
-          <a href><button>Schedule a Consultation</button></a>
+           <a aria-label="empty" href><button>Schedule a Consultation</button></a>
         </div>
       </div>
     </div>
@@ -458,11 +370,11 @@ export default function Home() {
   <section>
     <div className="container">
       <div className="title t4">
-        <small>WE ARE PROUD OF</small>
+        {/* <small>WE ARE PROUD OF</small> */}
         <h2>Our Happy Patients</h2>
       </div>
-      <Slider3 />
-     <Slider4 />
+      <DynamicSlider3 />
+     <DynamicSlider4 />
     </div>
   </section>
   <section className="bg">
@@ -471,7 +383,7 @@ export default function Home() {
         <div className="tag">FAQS</div>
         <h2>Frequently Asked Questions</h2>
       </div>
-      <Faq />
+      <DynamicFaq />
     </div>
   </section>
   <section className="bg7">
@@ -482,7 +394,7 @@ export default function Home() {
         </h2>
         <p>Start today for a safer, private, and uncompromised Hair Transplant Operation
         </p>
-        <a href="#"><button>Claim Your Free Consultation</button></a>
+         <a aria-label="empty" href="#"><button>Claim Your Free Consultation</button></a>
       </div>
     </div>
   </section>
@@ -490,13 +402,13 @@ export default function Home() {
     <div className="container">
       <p>Copyright: © 2024 Haista Clinic</p>
       <div className="links">
-        <a href>Terms</a>
-        <a href>Privacy</a>
-        <a href>Cookies</a>
+         <a aria-label="empty" href>Terms</a>
+         <a aria-label="empty" href>Privacy</a>
+         <a aria-label="empty" href>Cookies</a>
       </div>
     </div>
   </footer>
-  <a href="#" className="wp">
+   <a aria-label="empty" href="#" className="wp">
     <img loading="lazy" src="/images/whatsapp.png" alt="" />
   </a>
  

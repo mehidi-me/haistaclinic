@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en"
      className={`${poppins.variable} ${bebasNeue.variable}`}
      >
-      {/* <body className={poppins.className}>{children}</body> */}
       <body>{children}</body>
     </html>
   );

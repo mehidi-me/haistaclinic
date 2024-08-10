@@ -23,7 +23,7 @@ function Header() {
       <header>
         <div className="container">
           <div className="logo">
-            <img loading="lazy" src="/images/Haista-Logo-R-2.png" alt="" />
+            <img loading="eager" src="/images/Haista-Logo-R-2.png" alt="" />
           </div>
           <a href="#">
             <button>Quick Quote via WhatsApp</button>
@@ -33,7 +33,7 @@ function Header() {
       <header className="mb">
         <div className="container">
           <div className="logo">
-            <img loading="lazy" src="/images/Haista-Logo-R-1.png" alt="" />
+            <img loading="eager" src="/images/Haista-Logo-R-1.png" alt="" />
           </div>
         </div>
       </header>

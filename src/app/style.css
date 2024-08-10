@@ -10,7 +10,8 @@
   color: var(--primary-text);
 }
 :root {
-  --primary: #0299ed;
+  --primary: #066092;
+  /* --primary: #0299ed; */
   --secoundary: #e2498a;
   --primary-text: #242424;
   --bg: #001e47;
@@ -18,9 +19,6 @@
   --card: #f1f1f1;
   --secoundprimary: #383838;
   --soft-bg: #f3fdff;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
 [class*="grid"] {
   display: grid;
@@ -271,7 +269,8 @@ main .content .trust p {
   font-size: 2.5rem;
   font-weight: 500;
 }
-form input {
+form input,
+form select {
   height: 6rem;
   background: #f4f4f4;
   width: 100%;
@@ -279,6 +278,13 @@ form input {
   text-align: center;
   border: 1px solid #d6d6d6;
   border-radius: 0.5rem;
+}
+.intl-tel-input .country{
+  font-size: 1.5rem;
+}
+
+form .form-control{
+  text-align: left;
 }
 .form-step {
   display: none;
@@ -638,7 +644,8 @@ button.animated img {
 button.primary {
   font-family: var(--bebasneue), sans-serif;
   font-size: 3rem;
-  background: #00d200;
+  /* background: #00d200; */
+  background: #066406;
 }
 .card h2 {
   font-size: 7rem;
@@ -1291,4 +1298,91 @@ main {
     right: 1rem;
     bottom: 3rem;
   }
+}
+
+
+/* Image Uploader */
+
+.upload-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.upload-area {
+  border: 2px dashed #007BFF;
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-area i {
+  font-size: 50px;
+  color: #007BFF;
+}
+
+.upload-area p {
+  font-size: 18px;
+  color: #555;
+}
+
+.upload-area input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-list {
+  margin-top: 20px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.file-details {
+  flex: 1;
+}
+
+.file-details span {
+  display: block;
+}
+
+.file-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.file-actions button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.file-actions button:hover {
+  color: #007BFF;
 }
