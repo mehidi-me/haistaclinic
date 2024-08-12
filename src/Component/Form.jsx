@@ -4,9 +4,13 @@ import React, { useEffect, useRef, useState } from "react";
 import IntlTelInput from "intl-tel-input/react";
 import "intl-tel-input/build/css/intlTelInput.min.css";
 import ImageUploading from "react-images-uploading";
+import { useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 
 function Form() {
   const myRef = useRef(null);
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [userName, setUserName] = useState("");
   const [treatments, setTreatments] = useState("Sapphire Hair Transplant");
   const [userNumber, setUserNumber] = useState("");
@@ -15,6 +19,7 @@ function Form() {
   const [activeStep, setActiveStep] = useState(1);
   const [numberErrorCode, setNumberErrorCode] = useState(null);
   const [images, setImages] = React.useState([]);
+  const [loading, setLoading] = React.useState(false);
   const geoIpLookup = () => {
     fetch("https://api.country.is")
       .then(function (res) {
@@ -54,14 +59,34 @@ function Form() {
         return;
       }
       setActiveStep(step + 1);
-    }else{
+    } else {
+      setLoading(true);
       console.log({ userName, userNumber, treatments, images });
+      const formData = new FormData();
+      formData.append("userName", userName);
+      formData.append("userNumber", userNumber);
+      images.map((image, key) => formData.append("file-" + key, image.file));
+      formData.append("treatments", treatments);
+      formData.append("gclid", searchParams.get('gclid'));
+      fetch("https://hooks.zapier.com/hooks/catch/3318106/24aukwb/", {
+        method: "POST",
+        body: formData,
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          setLoading(false);
+          console.log(data);
+          router.push('/thank-you');
+        })
+        .catch((error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something want wrong try again!")
+        });
     }
   };
 
   useEffect(() => geoIpLookup(), []);
-
-  
 
   return (
     <>
@@ -255,10 +280,11 @@ function Form() {
           </div>
           <div
             className="button"
-            onClick={() => submitForm(4)}
+            onClick={!loading ? () => submitForm(4) : () => {}}
             style={{ fontSize: "2rem" }}
+            
           >
-            Get Free Consultation
+            {loading ? "Loading..." : "Get Free Consultation"}
           </div>
         </div>
         {/* step 4 end */}
