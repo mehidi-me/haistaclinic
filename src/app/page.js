@@ -1,5 +1,6 @@
 
 
+import Main from "@/Component/Main";
 import dynamic from "next/dynamic";
 // import Head from "next/head";
 // import Image from "next/image";
@@ -19,7 +20,8 @@ export default function Home() {
     <div>
      
  <DynamicHeader />
- <DynamicMain />
+ {/* <DynamicMain /> */}
+ <Main />
   <section className="bg relative bg-mb">
     <img loading="lazy" className="shape5" src="/images/shape5.svg" alt="" />
     <div className="container">

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { Suspense } from 'react'
 import Form from './Form'
 
 function Main() {
@@ -64,7 +64,10 @@ function Main() {
         <img loading="lazy" className="overlay1" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
         <img loading="lazy" className="overlay2" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
         <h2>30-Second Form for a Fuller Head of Hair</h2>
+        <Suspense>
         <Form />
+        </Suspense>
+        
         
         <div className="privacy">
           <i><svg width={20} height={22} viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
