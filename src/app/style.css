@@ -922,6 +922,7 @@ section .bg-7 {
   top: 0;
   object-fit: cover;
   object-position: center;
+  opacity: .5;
 }
 section.bg7 :is(h3, h2, p) {
   color: white;
@@ -1101,6 +1102,7 @@ main {
     width: 100%;
     object-fit: cover;
     object-position: 20% center;
+    pointer-events: none;
   }
   main {
     flex-direction: column;
