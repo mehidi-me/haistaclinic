@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "p-start":"next build && next start"
+    "p-start": "next build && next start"
   },
   "dependencies": {
     "intl-tel-input": "^23.8.1",
@@ -16,6 +16,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-images-uploading": "^3.1.7",
+    "react-intersection-observer": "^9.13.0",
     "react-lite-youtube-embed": "^2.4.0",
     "react-slick": "^0.30.2",
     "sharp": "^0.33.4",
