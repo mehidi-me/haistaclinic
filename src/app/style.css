@@ -148,7 +148,7 @@ header .container {
 main {
   height: 100%;
   background: var(--bg);
-  background-image: url(/images/Lead-Capture-Hero-BG.webp);
+  /* background-image: url(/images/Lead-Capture-Hero-BG.webp); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -429,7 +429,7 @@ button.animated img {
 .card {
   padding: 5rem 3rem;
   background: var(--card);
-  background-image: url(/images/Lead-Capture-Product-BG.webp);
+  /* background-image: url(/images/Lead-Capture-Product-BG.webp); */
   background-size: cover;
   border-radius: 1rem;
 }
@@ -607,14 +607,14 @@ button.animated img {
   box-shadow: #959da533 0px 8px 24px;
 }
 .bg3 {
-  background: url(/images/dentalbg2.webp);
+  /* background: url(/images/dentalbg2.webp); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .wp-card {
   max-width: 50rem;
-  background: url(/images/Hair-transplant-bg2.jpg);
+  /* background: url(/images/Hair-transplant-bg2.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5rem;
@@ -896,7 +896,7 @@ section.bg7 {
 section.bg7::before {
   content: "";
   position: absolute;
-  background: url(/images/Web-App-Hero-BG-2.webp);
+  /* background: url(/images/Web-App-Hero-BG-2.webp); */
   width: 100%;
   height: 100%;
   left: 0;
@@ -1072,7 +1072,7 @@ main {
   }
   main {
     background: #0e357a;
-    background-image: url(/images/Lead-Capture-Hero-BG.webp);
+    /* background-image: url(/images/Lead-Capture-Hero-BG.webp); */
     background-repeat: no-repeat;
     background-position: 20% center;
     background-size: cover;
@@ -1236,7 +1236,7 @@ main {
     display: none;
   }
   .mobile-cta {
-    background: url(/images/haista-clinic-bg.jpg);
+    /* background: url(/images/haista-clinic-bg.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1257,8 +1257,8 @@ main {
     font-size: 2rem;
   }
   section.bg.bg-mb {
-    background-image: linear-gradient(#f3fdffee, #f3fdffe4),
-      url(/images/mb-bg.webp);
+    background-image: linear-gradient(#f3fdffee, #f3fdffe4);
+      /* url(/images/mb-bg.webp); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

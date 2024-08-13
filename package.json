@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "p-start":"next build && next start"
   },
   "dependencies": {
     "intl-tel-input": "^23.8.1",
