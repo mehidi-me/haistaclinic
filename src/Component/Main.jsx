@@ -8,6 +8,7 @@ function Main() {
   const [show, setShow] = useState(false);
   return (
     <main>
+      <img src="images/Lead-Capture-Hero-BG.webp" class="m-overlay" alt=""/>
       <img loading="eager" className="shape1" src="/images/shape1.svg" alt="" />
       <div className="mobile-hero">
         <h1>Hair Transplant in Turkey</h1>
@@ -105,7 +106,7 @@ function Main() {
               experienced team ensure natural-looking results tailored to your
               needs.
             </p>
-            <a aria-label="empty" href="#">
+            <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
               <button>Book Your Consultation</button>
             </a>
           </div>

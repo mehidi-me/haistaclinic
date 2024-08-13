@@ -25,7 +25,7 @@ function Header() {
           <div className="logo">
             <img loading="eager" src="/images/Haista-Logo-R-2.png" alt="" />
           </div>
-          <a href="#">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
             <button>Quick Quote via WhatsApp</button>
           </a>
         </div>
@@ -37,7 +37,7 @@ function Header() {
           </div>
         </div>
       </header>
-      <a href="#">
+      <a target="_blank" href="#">
     <div className="arrow">
       <svg width={18} height={10} viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1.5 8.75L9 1.25L16.5 8.75" stroke="#0F172A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

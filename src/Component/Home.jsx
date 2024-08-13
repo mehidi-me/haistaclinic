@@ -43,7 +43,7 @@ function Home() {
             <div className="grid-3">
               <DynamicVideos />
             </div>
-            <a aria-label="empty" href="#">
+            <a aria-label="empty" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A" target="_blank">
               <button className="animated">
                 <img
                   loading="lazy"
@@ -92,11 +92,12 @@ function Home() {
               </div>
             </div>
             <div className="mobile-cta">
+            <img class="bg" src="images/haista-clinic-bg.jpg" alt=""/>
               <h2>Discover Your New Look</h2>
               <h3>
                 Start Your Hair Journey, Claim Your Free Hair Assessment Now
               </h3>
-              <a aria-label="empty" href="#">
+              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                 <button>Risk-Free Consultation</button>
               </a>
             </div>
@@ -204,7 +205,7 @@ function Home() {
                     Translator in The Clinic
                   </p>
                 </div>
-                <a aria-label="empty" href="#">
+                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                   <button>Chat with a Hair Expert Now</button>
                 </a>
               </div>
@@ -318,7 +319,7 @@ function Home() {
                     Translator in The Clinic
                   </p>
                 </div>
-                <a aria-label="empty" href="#">
+                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                   <button>Chat with a Hair Expert Now</button>
                 </a>
               </div>
@@ -443,7 +444,7 @@ function Home() {
                     Istanbul Tour Included
                   </p>
                 </div>
-                <a aria-label="empty" href="#">
+                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                   <button>Chat with a Hair Expert Now</button>
                 </a>
               </div>
@@ -465,7 +466,7 @@ function Home() {
             </div>
   
             <DynamicSlider1 />
-            <a aria-label="empty" href="#">
+            <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
               <button className="animated">
                 <img
                   loading="lazy"
@@ -478,7 +479,8 @@ function Home() {
             </a>
           </div>
         </section>
-        <section className="bg3 relative">
+        <section className="relative">
+        <img src="images/dentalbg2.webp" class="bg3" alt=""/>
           <img
             loading="lazy"
             className="shape3"
@@ -493,6 +495,7 @@ function Home() {
           />
           <div className="container">
             <div className="wp-card">
+            <img class="bg" src="images/Hair-transplant-bg2.jpg" alt="" />
               <div className="ico">
                 <img
                   loading="lazy"
@@ -506,7 +509,7 @@ function Home() {
                 Connect with us before your hair transplant operation and get a
                 personalized pre-op meeting.
               </p>
-              <a aria-label="empty" href="#">
+              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                 <button className="primary">Request a call</button>
               </a>
             </div>
@@ -569,7 +572,7 @@ function Home() {
                 <div className="tag">BENEFITS</div>
                 <h2>No need to plan anything; we handle it all. Just arrive.</h2>
                 <p>Just focus on your treatment and relaxation.</p>
-                <a aria-label="empty" href>
+                <a aria-label="empty"  target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                   <button>Schedule a Consultation</button>
                 </a>
               </div>
@@ -658,7 +661,8 @@ function Home() {
             <DynamicFaq />
           </div>
         </section>
-        <section className="bg7">
+        <section className="relative bg7">
+        <img class="bg-7" src="images/Web-App-Hero-BG-2.webp" alt=""/>
           <div className="container">
             <div className="content-box">
               <h3 className="tag2">Join Us</h3>
@@ -667,7 +671,7 @@ function Home() {
                 Start today for a safer, private, and uncompromised Hair
                 Transplant Operation
               </p>
-              <a aria-label="empty" href="#">
+              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                 <button>Claim Your Free Consultation</button>
               </a>
             </div>
@@ -677,19 +681,19 @@ function Home() {
           <div className="container">
             <p>Copyright: © 2024 Haista Clinic</p>
             <div className="links">
-              <a aria-label="empty" href>
+              <a aria-label="empty">
                 Terms
               </a>
-              <a aria-label="empty" href>
+              <a aria-label="empty">
                 Privacy
               </a>
-              <a aria-label="empty" href>
+              <a aria-label="empty">
                 Cookies
               </a>
             </div>
           </div>
         </footer>
-        <a aria-label="empty" href="#" className="wp">
+        <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A" className="wp">
           <img loading="lazy" src="/images/whatsapp.png" alt="" />
         </a>
       </div>
