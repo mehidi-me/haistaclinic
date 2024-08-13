@@ -64,9 +64,9 @@ function Main() {
         <img loading="lazy" className="overlay1" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
         <img loading="lazy" className="overlay2" src="/images/Lead-Capture-Hero-Ornament.webp" alt="" />
         <h2>30-Second Form for a Fuller Head of Hair</h2>
-        <Suspense>
+        {/* <Suspense>
         <Form />
-        </Suspense>
+        </Suspense> */}
         
         
         <div className="privacy">

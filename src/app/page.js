@@ -4,14 +4,14 @@
 import dynamic from "next/dynamic";
 // import Head from "next/head";
 // import Image from "next/image";
-const DynamicSlider1 = dynamic(() => import('@/Component/Slider1'),{ssr:false})
-const DynamicSlider2 = dynamic(() => import('@/Component/Slider2'),{ssr:false})
-const DynamicSlider3 = dynamic(() => import('@/Component/Slider3'),{ssr:false})
-const DynamicSlider4 = dynamic(() => import('@/Component/Slider4'),{ssr:false})
-const DynamicVideos = dynamic(() => import('@/Component/Videos'),{ssr:false})
-const DynamicFaq = dynamic(() => import('@/Component/Faq'),{ssr:false})
-const DynamicMain = dynamic(() => import('@/Component/Main'),{ssr:true})
-const DynamicHeader = dynamic(() => import('@/Component/Header'),{ssr:false})
+const DynamicSlider1 = dynamic(() => import('@/Component/Slider1'))
+const DynamicSlider2 = dynamic(() => import('@/Component/Slider2'))
+const DynamicSlider3 = dynamic(() => import('@/Component/Slider3'))
+const DynamicSlider4 = dynamic(() => import('@/Component/Slider4'))
+const DynamicVideos = dynamic(() => import('@/Component/Videos'))
+const DynamicFaq = dynamic(() => import('@/Component/Faq'))
+const DynamicMain = dynamic(() => import('@/Component/Main'))
+const DynamicHeader = dynamic(() => import('@/Component/Header'))
 
 export default function Home() {
   
