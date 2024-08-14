@@ -92,7 +92,7 @@ function Home() {
               </div>
             </div>
             <div className="mobile-cta">
-            <img class="bg" src="images/haista-clinic-bg.jpg" alt=""/>
+            
               <h2>Discover Your New Look</h2>
               <h3>
                 Start Your Hair Journey, Claim Your Free Hair Assessment Now
@@ -100,16 +100,12 @@ function Home() {
               <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                 <button>Risk-Free Consultation</button>
               </a>
+              <img class="bg" src="images/haista-clinic-bg.jpg" alt=""/>
             </div>
           </div>
         </section>
         <section className="bg2 relative">
-          <img
-            loading="lazy"
-            className="shape2"
-            src="/images/shape2.svg"
-            alt=""
-          />
+          
           <div className="container">
             <div className="title t2">
               <h2>HAIR RESTORATION PACKAGES</h2>
@@ -213,7 +209,7 @@ function Home() {
                 <div className="price">
                   <p>Essential Transplant Package</p>
                   <h4>
-                    €<span>1650</span>
+                    €<span>1950</span>
                   </h4>
                   <span className="tag">Best Value</span>
                 </div>
@@ -327,7 +323,7 @@ function Home() {
                 <div className="price">
                   <p>Essential Transplant Package</p>
                   <h4>
-                    €<span>1650</span>
+                    €<span>2300</span>
                   </h4>
                   <span className="tag">Best Value</span>
                 </div>
@@ -450,6 +446,12 @@ function Home() {
               </div>
             </div>
           </div>
+          <img
+            loading="lazy"
+            className="shape2"
+            src="/images/shape2.svg"
+            alt=""
+          />
         </section>
         <section className="bg2 relative">
           <img
@@ -495,7 +497,7 @@ function Home() {
           />
           <div className="container">
             <div className="wp-card">
-            <img class="bg" src="images/Hair-transplant-bg2.jpg" alt="" />
+            
               <div className="ico">
                 <img
                   loading="lazy"
@@ -512,6 +514,7 @@ function Home() {
               <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
                 <button className="primary">Request a call</button>
               </a>
+              <img class="bg" src="images/Hair-transplant-bg2.jpg" alt="" />
             </div>
           </div>
         </section>
@@ -662,7 +665,7 @@ function Home() {
           </div>
         </section>
         <section className="relative bg7">
-        <img class="bg-7" src="images/Web-App-Hero-BG-2.webp" alt=""/>
+       
           <div className="container">
             <div className="content-box">
               <h3 className="tag2">Join Us</h3>
@@ -676,6 +679,7 @@ function Home() {
               </a>
             </div>
           </div>
+          <img class="bg-7" src="images/Web-App-Hero-BG-2.webp" alt=""/>
         </section>
         <footer>
           <div className="container">

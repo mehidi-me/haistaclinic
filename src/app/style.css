@@ -62,6 +62,7 @@ h6 {
 img,
 video {
   max-width: 100%;
+  pointer-events: none;
 }
 .container {
   max-width: 1240px;
@@ -643,7 +644,7 @@ button.animated img {
   top: 0;
   object-fit: cover;
   object-position: center;
-  z-index: 1;
+  z-index: 0;
 }
 .wp-card :is(h2, p, button) {
   color: white;
@@ -1103,6 +1104,7 @@ main {
     object-fit: cover;
     object-position: 20% center;
     pointer-events: none;
+    z-index: -1;
   }
   main {
     flex-direction: column;

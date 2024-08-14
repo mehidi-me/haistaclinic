@@ -5,12 +5,10 @@ import IntlTelInput from "intl-tel-input/react";
 import "intl-tel-input/build/css/intlTelInput.min.css";
 import ImageUploading from "react-images-uploading";
 import { useSearchParams } from 'next/navigation';
-import { useRouter } from 'next/navigation';
 
 function Form() {
   const myRef = useRef(null);
   const searchParams = useSearchParams();
-  const router = useRouter();
   const [userName, setUserName] = useState("");
   const [treatments, setTreatments] = useState("Sapphire Hair Transplant");
   const [userNumber, setUserNumber] = useState("");
@@ -76,7 +74,7 @@ function Form() {
         .then((data) => {
           setLoading(false);
           console.log(data);
-          router.push('/thank-you');
+          window.location.href = "https://lp.haistaclinic.com/thank-you/";
         })
         .catch((error) => {
           setLoading(false);

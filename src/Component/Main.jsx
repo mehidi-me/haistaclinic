@@ -8,7 +8,7 @@ function Main() {
   const [show, setShow] = useState(false);
   return (
     <main>
-      <img src="images/Lead-Capture-Hero-BG.webp" class="m-overlay" alt=""/>
+      
       <img loading="eager" className="shape1" src="/images/shape1.svg" alt="" />
       <div className="mobile-hero">
         <h1>Hair Transplant in Turkey</h1>
@@ -172,6 +172,7 @@ function Main() {
           </div>
         </div>
       </div>
+      <img src="images/Lead-Capture-Hero-BG.webp" class="m-overlay" alt=""/>
     </main>
   );
 }
