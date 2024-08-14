@@ -106,7 +106,7 @@ function Main() {
               experienced team ensure natural-looking results tailored to your
               needs.
             </p>
-            <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%20Free%20Consultation%2C%0ACould%20you%20help%20me%20with%20some%20questions%20about%20dental%20treatments%3F%0A----%0AI%20find%20you%20from%20this%20address%3A">
+            <a aria-label="empty" target="_blank" href={process.env.WHATSAPP_LINK}>
               <button>Book Your Consultation</button>
             </a>
           </div>
