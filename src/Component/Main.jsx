@@ -106,7 +106,7 @@ function Main() {
               experienced team ensure natural-looking results tailored to your
               needs.
             </p>
-            <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+            <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
               <button>Book Your Consultation</button>
             </a>
           </div>

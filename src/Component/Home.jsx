@@ -43,7 +43,7 @@ function Home() {
             <div className="grid-3">
               <DynamicVideos />
             </div>
-            <a aria-label="empty" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A" target="_blank">
+            <a aria-label="empty" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation." target="_blank">
               <button className="animated">
                 <img
                   loading="lazy"
@@ -97,7 +97,7 @@ function Home() {
               <h3>
                 Start Your Hair Journey, Claim Your Free Hair Assessment Now
               </h3>
-              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
                 <button>Risk-Free Consultation</button>
               </a>
               <img class="bg" src="images/haista-clinic-bg.jpg" alt=""/>
@@ -201,7 +201,7 @@ function Home() {
                     Translator in The Clinic
                   </p>
                 </div>
-                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
                   <button>Chat with a Hair Expert Now</button>
                 </a>
               </div>
@@ -280,7 +280,7 @@ function Home() {
                     >
                       <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg>{" "}
-                    PRP Treatment Included
+                     Treatment Included
                   </p>
                   <p>
                     <svg
@@ -316,7 +316,7 @@ function Home() {
                     Translator in The Clinic
                   </p>
                 </div>
-                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
                   <button>Chat with a Hair Expert Now</button>
                 </a>
               </div>
@@ -395,7 +395,7 @@ function Home() {
                     >
                       <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg>{" "}
-                    PRP Treatment Included
+                     Treatment Included
                   </p>
                   <p>
                     <svg
@@ -442,7 +442,7 @@ function Home() {
                     Istanbul Tour Included
                   </p>
                 </div>
-                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+                <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
                   <button>Chat with a Hair Expert Now</button>
                 </a>
               </div>
@@ -470,7 +470,7 @@ function Home() {
             </div>
   
             <DynamicSlider1 />
-            <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+            <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
               <button className="animated">
                 <img
                   loading="lazy"
@@ -513,7 +513,7 @@ function Home() {
                 Connect with us before your hair transplant operation and get a
                 personalized pre-op meeting.
               </p>
-              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
                 <button className="primary">Request a call</button>
               </a>
               <img class="bg" src="images/Hair-transplant-bg2.jpg" alt="" />
@@ -577,7 +577,7 @@ function Home() {
                 <div className="tag">BENEFITS</div>
                 <h2>No need to plan anything; we handle it all. Just arrive.</h2>
                 <p>Just focus on your treatment and relaxation.</p>
-                <a aria-label="empty"  target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+                <a aria-label="empty"  target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
                   <button>Schedule a Consultation</button>
                 </a>
               </div>
@@ -676,7 +676,7 @@ function Home() {
                 Start today for a safer, private, and uncompromised Hair
                 Transplant Operation
               </p>
-              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+              <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
                 <button>Claim Your Free Consultation</button>
               </a>
             </div>
@@ -699,7 +699,7 @@ function Home() {
             </div>
           </div>
         </footer>
-        <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A" className="wp">
+        <a aria-label="empty" target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation." className="wp">
           <img loading="lazy" src="/images/whatsapp.png" alt="" />
         </a>
       </div>

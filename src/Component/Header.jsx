@@ -25,7 +25,7 @@ function Header() {
           <div className="logo">
             <img loading="eager" src="/images/Haista-Logo-R-2.png" alt="" />
           </div>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=%0AHi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.%0A">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=905342050230&text=Hi%2C%0AI%20have%20some%20questions%20regarding%20hair%20transplant%20operation.">
             <button>Quick Quote via WhatsApp</button>
           </a>
         </div>
